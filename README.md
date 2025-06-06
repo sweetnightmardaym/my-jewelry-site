@@ -1,4 +1,5 @@
 # my-jewelry-site
 
 This repository contains a simple static website for showcasing jewelry.
-The homepage provides an overview of available categories with navigation to pages where items can be purchased.
+Основная страница демонстрирует категории украшений и ведет на страницу "Товары" с подробным списком разделов.
+Добавлена простая административная панель для добавления или редактирования товаров.

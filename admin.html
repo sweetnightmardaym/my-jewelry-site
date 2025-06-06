@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Админ-панель</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="products.html">Товары</a>
+      <a href="admin.html">Администрирование</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>Администрирование товаров</h1>
+    <form class="admin-form">
+      <label>
+        Название товара
+        <input type="text" name="name" />
+      </label>
+      <label>
+        Описание
+        <textarea name="description"></textarea>
+      </label>
+      <label>
+        Изображение (URL)
+        <input type="url" name="image" />
+      </label>
+      <div class="admin-actions">
+        <button type="submit">Добавить</button>
+        <button type="button">Удалить</button>
+        <button type="button">Редактировать</button>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2025 Магазин бижутерии</p>
+  </footer>
+</body>
+</html>
