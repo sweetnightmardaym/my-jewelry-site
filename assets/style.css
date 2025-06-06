@@ -11,15 +11,43 @@ body {
 header {
   position: sticky;
   top: 0;
+  z-index: 1000;
+}
+.top-bar {
+  background: #e0e0e0;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.top-bar a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+  font-size: 0.9rem;
+}
+.login-link {
+  position: absolute;
+  right: 20px;
+}
+.store-bar {
   background: #f8f8f8;
   padding: 10px 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  z-index: 1000;
+  text-align: center;
+}
+.store-bar h1 {
+  color: goldenrod;
+  font-size: 2rem;
 }
 header nav {
   display: flex;
   justify-content: center;
   gap: 20px;
+  background: #f8f8f8;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 header nav a {
   text-decoration: none;
@@ -108,4 +136,27 @@ footer {
 .admin-actions {
   display: flex;
   gap: 10px;
+}
+
+.store-info,
+.extra-categories {
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.4;
+}
+.extra-categories ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.extra-categories a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f8f8f8;
 }
