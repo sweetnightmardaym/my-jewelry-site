@@ -1,0 +1,27 @@
+{
+  "name": "my-jewelry-site",
+  "version": "1.0.0",
+  "description": "This repository contains a simple static website for showcasing jewelry. Основная страница демонстрирует категории украшений и ведет на страницу \"Товары\" с подробным списком разделов. Добавлена простая административная панель для добавления или редактирования товаров.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier -w ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "private": true,
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "eslint-plugin-react": "^7.37.5",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.0",
+    "prettier": "^3.5.3"
+  }
+}

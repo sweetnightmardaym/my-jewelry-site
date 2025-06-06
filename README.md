@@ -1,5 +1,25 @@
 # my-jewelry-site
 
-This repository contains a simple static website for showcasing jewelry.
-Основная страница демонстрирует категории украшений и ведет на страницу "Товары" с подробным списком разделов.
-Добавлена простая административная панель для добавления или редактирования товаров.
+Monorepo for a jewelry shop demo. Includes a Node.js backend with Express and TypeORM and a React frontend built with Vite.
+
+## Development
+
+```bash
+npm install
+npm run lint
+```
+
+Backend commands:
+
+```bash
+cd backend
+npm run dev
+npm run seed
+```
+
+Frontend:
+
+```bash
+cd frontend
+npm run dev
+```
